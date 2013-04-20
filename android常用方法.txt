@@ -1,0 +1,6 @@
+Distance a touch can wander before we think the user is scrolling in pixels 
+滑动多少像素算一个scroll
+
+ViewConfiguration config = ViewConfiguration.get(context);
+int mTouchSlop = config.getScaledTouchSlop();
+--------------------------------------------------
