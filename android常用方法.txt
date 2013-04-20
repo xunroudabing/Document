@@ -4,3 +4,7 @@ Distance a touch can wander before we think the user is scrolling in pixels
 ViewConfiguration config = ViewConfiguration.get(context);
 int mTouchSlop = config.getScaledTouchSlop();
 --------------------------------------------------
+ÅÐ¶ÏSDK°æ±¾
+VERSION.SDK_INT >= VERSION_CODES.JELLY_BEAN
+
+---------
